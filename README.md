@@ -19,6 +19,7 @@ Get started
 * [ ] Check .travis.yml
 * [ ] Write tests
 * [ ] Write functionality
+* [ ] Check README.md and write documentation
 * [ ] [Release](CONTRIBUTING.md#release). Bump to 1.0.0 as soon as possible, it makes versions more useful.
 
 ## Structure explained
@@ -33,7 +34,7 @@ Run:
 
 ```bash
 npm init
-npm install --save-dev mocha eslint jscs
+npm install --save-dev mocha eslint jscs releasor
 ```
 
 Set main:
@@ -56,3 +57,23 @@ NPM scripts:
   }
 }
 ```
+
+Few useful paragraphs for new projects, fill those:
+
+## How it works
+
+TODO: fill
+
+## Install
+
+```
+npm install module
+```
+
+## Usage
+
+TODO: fill
+
+## License
+
+MIT
